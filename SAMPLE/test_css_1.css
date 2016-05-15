@@ -54,8 +54,42 @@ table {
   border-spacing: 0;
 }
 
-.Bee_img {
-  height: 150px;
-  width: 150px;
-  display: flex;
+body {
+ background: gray;
 }
+ 
+.headIconBee {
+  display: inline;
+  height: 120px;
+  width: 170px;
+  margin-left: 25%;
+  margin-top: 20px; 
+} 
+ 
+.pageTitle {
+ display: inline;
+ margin-top: 55px;
+ color: white;
+ font-size: 33px;
+ font-family: 'Palatino Linotype';
+}
+
+.pageSubTitle {
+ display: block;
+ margin-left: 475px;
+ margin-bottom: 50px;
+ color: white;
+ font-size: 22px;
+ font-family: 'Palatino Linotype';
+}
+
+#fileUpload {
+ display: block;
+ color: white;
+ font-family: 'Palatino Linotype';
+}
+
+#upload {
+ display: block; 
+}
+
